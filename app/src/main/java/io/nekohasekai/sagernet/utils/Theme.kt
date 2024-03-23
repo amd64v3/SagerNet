@@ -61,11 +61,11 @@ object Theme {
     }
 
     fun getTheme(): Int {
-        return getTheme(DataStore.showAppTheme) DataStore.appTheme)
+        return getTheme(DataStore.appTheme)
     }
 
     fun getDialogTheme(): Int {
-        return getDialogTheme(DataStore.showAppTheme) DataStore.appTheme)
+        return getDialogTheme(DataStore.appTheme)
     }
 
     fun getTheme(theme: Int): Int {
